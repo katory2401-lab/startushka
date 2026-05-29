@@ -606,3 +606,137 @@ footer p {
         font-size: 0.9rem;
     }
 }
+/* ===== КНОПКА ВЕРСИИ ДЛЯ СЛАБОВИДЯЩИХ ===== */
+
+.vision-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background: #5B7FA5;
+    color: white;
+    border: 2px solid white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: background 0.3s;
+}
+
+.vision-btn:hover {
+    background: #4a6d8c;
+}
+
+/* Стили для версии для слабовидящих */
+body.high-contrast {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+body.high-contrast header {
+    background-color: #000 !important;
+    border-bottom: 2px solid #fff;
+}
+
+body.high-contrast nav a {
+    color: #fff !important;
+}
+
+body.high-contrast h2,
+body.high-contrast h3,
+body.high-contrast p,
+body.high-contrast td,
+body.high-contrast li {
+    color: #fff !important;
+}
+
+body.high-contrast .news-card,
+body.high-contrast .gallery-item,
+body.high-contrast .link-card,
+body.high-contrast .info-block {
+    background: #111 !important;
+    border: 1px solid #fff;
+}
+
+body.high-contrast .schedule-table th {
+    background: #000 !important;
+    border: 1px solid #fff;
+}
+
+body.high-contrast .schedule-table td {
+    border: 1px solid #fff;
+}
+
+body.high-contrast .slide-text {
+    background: #000 !important;
+}
+
+body.high-contrast .btn {
+    background: #000 !important;
+    border: 2px solid #fff;
+}
+
+body.high-contrast footer {
+    background: #000 !important;
+    border-top: 2px solid #fff;
+}
+
+body.high-contrast .contact-form input,
+body.high-contrast .contact-form textarea {
+    background: #000 !important;
+    color: #fff !important;
+    border: 1px solid #fff;
+}
+/* ===== СЧЁТЧИК ДНЕЙ ===== */
+
+.counter-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: #e8f0fe;
+    border-radius: 10px;
+}
+
+.counter-section h2 {
+    border-bottom: none;
+    margin-bottom: 0.5rem;
+}
+
+.counter {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #5B7FA5;
+    margin: 1rem 0;
+}
+
+.counter-sub {
+    color: #888;
+    font-size: 0.9rem;
+}
+/* ===== ВИДЖЕТ ПОГОДЫ ===== */
+
+.weather-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: #f5f0e8;
+    border-radius: 10px;
+}
+
+.weather-section h2 {
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
+
+.weather-widget {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.weather-sub {
+    font-size: 0.7rem;
+    color: #aaa;
+    margin-top: 0.5rem;
+}

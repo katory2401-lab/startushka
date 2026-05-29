@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+	<button class="vision-btn" onclick="toggleVision()" title="Версия для слабовидящих">👁 A+</button>
         <div class="container">
             <div class="logo">
                 <h1>МКОУ ООШ с. Старая Тушка</h1>
@@ -69,6 +70,18 @@
         <a href="#slide1" class="dot"></a>
         <a href="#slide2" class="dot"></a>
         <a href="#slide3" class="dot"></a>
+<section class="counter-section">
+    <h2>До конца учебного года осталось:</h2>
+    <div class="counter" id="days-counter">загрузка...</div>
+    <p class="counter-sub">2025/2026 учебный год завершается 31 мая 2026 года</p>
+</section>
+<section class="weather-section">
+    <h2>Погода в с. Старая Тушка</h2>
+    <div class="weather-widget">
+        <div id="weather">Загрузка погоды...</div>
+        <p class="weather-sub">Данные предоставлены сервисом OpenWeatherMap</p>
+    </div>
+</section>
     </div>
 </section>
 
@@ -114,5 +127,6 @@
             <p>Кировская область, Малмыжский район, с. Старая Тушка</p>
         </div>
     </footer>
+<script src="js/main.js"></script>
 </body>
 </html>
